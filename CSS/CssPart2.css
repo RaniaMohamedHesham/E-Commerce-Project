@@ -1,0 +1,31 @@
+/* Second Part */
+#SECONDPART{
+    display: flex;
+    flex-direction: row;
+    margin: 8%;
+    text-align: left;
+}
+#SecondP-Div{
+    margin-top: 10%;
+    margin-bottom: 50px;
+    width: 25%;
+}
+#SecondP-Div > div{
+    width: 89%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+
+}
+.BW-BTN{
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+}
+#SecondP-Div > div , #SecondP-Div > button , #SecondP-Div > img{
+    margin: 8px;
+    margin-left: 25px;
+}

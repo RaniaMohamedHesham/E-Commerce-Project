@@ -1,0 +1,197 @@
+/* Third Part */
+* {
+    box-sizing: border-box;
+}
+
+.Slider1 {
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+    height: 70%;
+    display:block;
+    position: relative;
+    
+}
+.slider-title{
+    
+    margin-left: 120px;
+    margin-bottom:-70px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 20;
+}
+.next1{
+    position: absolute;
+    top: 35%;
+    margin-left: 50%;
+    right: 40px;
+    font-size: 2em;
+    color: grey;
+    margin: 0;
+
+}
+
+.next2 {
+    position: absolute;
+    top: 35%;
+    margin-left: 50%;
+    right: 40px;
+    font-size: 2em;
+    color: grey;
+    margin: 0;
+}
+.prev1 {
+    position: absolute;
+    top: 35%;
+    left: 50px;
+    font-size: 2em;
+    color: grey;
+}
+.prev2 {
+    position: absolute;
+    top: 35%;
+    left: 50px;
+    font-size: 2em;
+    color: grey;
+
+}
+
+.BrandSlider1 {
+   
+    width: 84%;
+    height: 380px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.BrandSlider2 {
+  
+    width: 84%;
+    height: 380px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+
+.BS {
+  
+    width: 170px;
+    height: 330px;
+    margin: 0px 5px;
+    display: inline-block;
+    background: white;
+}
+
+.BS-IMG {
+    
+    height: 60px;
+    width: 120px;
+
+    margin-top: 100px;
+    
+}
+
+.BS-IMGD {
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+    /* border: 1px solid blue; */
+    height: 300px;
+
+}
+
+.BS-P {
+    margin: 0;
+    
+    background-color: transparent;
+    font: Open Sans, sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.slick-dots {
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+
+
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(215, 215, 215);
+
+    text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+    background-color: rgb(155, 155, 155);
+}
+
+.BS-Anchor {
+    width: 170px;
+    height: 330px;
+    margin: 0px 5px;
+    display: inline-block;
+    background: rgb(244, 244, 244);
+    text-decoration: none;
+    color: black;
+}
+
+.BS-IMG {
+    height: 60px;
+    width: 120px;
+
+    margin-bottom: -150px;
+}
+
+.BS-LOWERDIV {
+
+    text-align: left;
+    background-color: white;
+    padding: 3px;
+    margin-top: 240px;
+}
+
+.BS-UPPERDIV {
+    background-color: gray;
+    width: 100%;
+    height: 100px;
+    
+
+}
+
+.BS-NO1 {
+    font-size: 16px;
+    
+}
+
+.BS-NO2 p {
+    font-size: 14px;
+    margin: 2px;
+}
+
+.BS-NO2 .L2 {
+    font-weight: bold;
+}
+
+.BS-NO2 .L3 {
+    color: rgb(24, 114, 109);
+}

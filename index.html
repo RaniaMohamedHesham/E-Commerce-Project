@@ -1,0 +1,2600 @@
+<html !DOCTYPE>
+<html>
+
+<head>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .rowRH{
+          display: flex;
+        }
+        .row2 {
+          display: flex;
+        }
+        .row3{
+            display: flex;
+            margin: 40px;
+            padding: 30px;
+        }
+        
+        .c1{
+        background-color: white;
+        height: 200px;
+        padding: 10px;
+        text-align: center;
+        /* border: 1px solid; */
+        border-radius: 8px;
+        box-shadow: 2px 2px 1px 2px silver;
+        }
+        .c1 img{
+            height: 130px;
+            /* border: 1px solid; */
+            width: 160px;
+        }
+        /* .c2{
+            width: 20px;
+            height:20px;
+        } */
+        
+        .columnRH {
+          flex: 33.33%;
+          /* padding: 5px; */
+          margin: 1%;
+          
+        }
+        .column2 {
+          flex: 10.33%;
+          padding: 3px;
+          margin: 5px;
+          
+          
+        }
+        .container{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        
+        .coloumn3 {
+          flex: 10.33%;
+          padding: 5px;
+          margin: 5px;
+        }
+        
+        a{
+          text-decoration: none;
+          text-align: center;
+          font-size :16px ;
+        }
+        .linkStyle{
+            text-decoration: none;
+            color: #222;
+        }
+        .class2{
+            text-align: center;
+          font-size: 10px;
+         
+          
+        }
+        a:hover {
+          color:blue;
+          
+        }
+        
+        /* a.ex5:hover,a.ex5:active{
+            text-decoration: underline;
+        
+        } */
+        /* .onphoto{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+        } */
+        .c3{
+            font-size: 10px;
+        }
+        
+        .pic3{
+          background-color:url("images/2.11.15_Vis_Nav_Cold_Weather_768x960.jpg.webp");
+        }
+        .center{
+        text-align: center;
+        }
+        .unimg{
+            text-decoration: underline;
+        }
+        .uimg{
+          font-weight: bold;
+          font-size: 20px;
+        }
+        .PaddingForTitle{
+            padding-top: 10%;
+        }
+        .row4 {
+          display: flex;
+        }
+        
+        
+        .column4 {
+          flex: 33.33%;
+          padding: 5px;
+        }
+         .p4
+         {
+           text-align: center;
+           font-size: 35px;
+         }
+        
+         .BW-BTN{
+            border: 2px solid black;
+            color: black;
+            background-color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            padding: 8px;
+            font-size: 15px;
+            /* width: 89%;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 19px; */
+        }
+        
+        .BW-BTN:hover{
+           
+          background-color: black;
+          color: white;
+        }
+        
+      </style>
+     <link rel="stylesheet" href="CSS/CssPart2.css">
+     <link rel="stylesheet" href="CSS/CssPart3.css">
+     <link rel="stylesheet" href="CSS/CssLastPart.css">
+     
+     <link rel="stylesheet" href="CssPart3.css">
+     <link rel="stylesheet" href="CssLastPart.css">
+     <link rel="stylesheet" href="CssPart1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a370c51818.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>
+        Zappos
+    </title>
+    <link rel="stylesheet" href="Css/HomeStyle.css">
+</head>
+
+<body>
+    <!-- <header id="Home-Page-Header">
+
+                    <div id="Logo">
+                        <a href="index.html">
+                            <img src="https://m.media-amazon.com/images/G/01/zappos/melody/zapposPBS._CB1509642213_.svg" name="Zappos" id="Zappos" alt="Zappos" height="50%">
+                        </a>
+                    </div>
+                    <div id="search">
+                        <div id="itemSearch">
+                            <i class="fas fa-search"></i>
+                            <input type="search" id="searchBox" name="search" placeholder="Search for shoes, clothes, etc." autocomplete="off">
+                        </div>
+                    </div>
+                    <div id="search-Button">
+                        <button id="btn-search">Search</button>
+                    </div>
+                    <div id="Cart-box">
+                        <button id="btn-cart"><i class="fas fa-shopping-cart" id="shopping-cart"></i> &nbsp;&nbsp;MY CART</button>
+                    </div>
+                    <div style="clear:both"></div>
+            </header> -->
+    <header id="Home-Page-Header">
+        <div id="Logo">
+            <a href="index.html">
+                <img src="https://m.media-amazon.com/images/G/01/zappos/melody/zapposPBS._CB1509642213_.svg"
+                    name="Zappos" id="Zappos" alt="Zappos" height="50">
+            </a>
+        </div>
+        <div id="search">
+            <div id="itemSearch" class="">
+                <i class="fas fa-search"></i>
+                <input type="search" id="searchBox" name="search" placeholder="Search for shoes, clothes, etc."
+                    autocomplete="off">
+            </div>
+        </div>
+        <div id="search-Button">
+            <button id="btn-search">Search</button>
+        </div>
+        <div id="Cart-box">
+            <button id="btn-cart"><i class="fas fa-shopping-cart" id="shopping-cart"></i> &nbsp;&nbsp;MY CART</button>
+        </div>
+        <div style="clear:both"></div>
+    </header>
+    <div style="clear:both"></div>
+
+    <div id="section-one">
+        <div id="New">
+            <a id="New-Btn" data-click="0" href="#">New&nbsp;
+                <i id="down-icon-New" class="fas fa-caret-down"></i>
+                <i class="fas fa-caret-up" style="display: none;"></i>
+            </a>
+        </div>
+        <div id="women">
+            <a id="Women-Btn" href="#" data-click="0">Women
+                <i id="down-icon-Women" class="fas fa-caret-down"></i>
+                <i class="fas fa-caret-up" style="display: none;"></i>
+            </a>
+        </div>
+        <div id="men">
+            <a id="Men-Btn" data-click="0" href="#">Men
+                <i id="down-icon-Men" class="fas fa-caret-down"></i>
+                <i class="fas fa-caret-up" style="display: none;"></i>
+            </a>
+        </div>
+        <div id="kids">
+            <a id="kids-Btn" data-click="0" href="#">kids
+                <i id="down-icon-kids" class="fas fa-caret-down"></i>
+                <i class="fas fa-caret-up" style="display: none;"></i>
+            </a>
+        </div>
+        <div id="Departments">
+            <a id="Departments-Btn" data-click="0" href="#">Departments
+                <i id="down-icon-Departments" class="fas fa-caret-down"></i>
+                <i class="fas fa-caret-up" style="display: none;"></i>
+            </a>
+        </div>
+        <div id="Brands">
+            <a id="Brands-Btn" data-click="0" href="#">Brands
+                <i id="down-icon-Brands" class="fas fa-caret-down"></i>
+                <i class="fas fa-caret-up" style="display: none;"></i>
+            </a>
+        </div>
+        <div id="sale">
+            <a id="Sale-Btn" data-click="0" href="#">Sale
+                <i id="down-icon-Sale" class="fas fa-caret-down"></i>
+                <i class="fas fa-caret-up" style="display: none;"></i>
+            </a>
+        </div>
+        <div id="Clothing">
+            <a id="Clothing-Btn" data-click="0" href="#">Clothing
+                <i id="down-icon-Clothing" class="fas fa-caret-down"></i>
+                <i class="fas fa-caret-up" style="display: none;"></i>
+            </a>
+        </div>
+
+        <div id="SignIn">
+            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">SingIn/Register</a>
+        </div>
+
+    </div>
+
+    <div class="overlay"></div>
+    <div class="modal fade " id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign-in</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="row">
+                                <div class="col-12 pt-3 ps-3">
+                                    <div class="d-grid gap-2">
+                                        <a class="btn btn-light sigBtn mb-3 " type="button"><i
+                                                class="fab fa-soundcloud"></i>Sign in with Zappos</a>
+                                        <a class="btn btn-light sigBtn mb-3" type="button"><i
+                                                class="fab fa-google "></i> Sign in with Google</a>
+                                        <a class="btn btn-light sigBtn mb-3" type="button"><i
+                                                class="fab fa-amazon"></i>Sign in with Amazon</a>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <hr style="width:100%;margin-left: 15%;" />
+                                        </div>
+                                        <div class="col-1">
+                                            or
+                                        </div>
+                                        <div class="col-6">
+                                            <hr style="width:100%;margin-right: 10%;" />
+                                        </div>
+
+                                    </div>
+                                    <div class="d-grid gap-2">
+                                        <button class="btn btn-light sigBtn sigBtnLast mb-3" type="button">Create your
+                                            Zappos Account</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                        </div>
+                        <div class="col-5">
+                            <div class="row">
+                                <div class="col-12 pt-3 ">
+                                    <p class="model-content">
+                                        By logging in with Amazon,
+                                        you may be eligible for additional Prime benefits like FREE Upgraded Shipping.
+                                        Then, join Zappos VIP for additional Prime-linked VIP perks:
+                                    </p>
+                                    <ul style="list-style: inside;padding-top: 0px;">
+                                        <li>
+                                            If you are an Amazon Prime Member, sign in with Amazon to qualify for free
+                                            upgraded shipping!
+                                        </li>
+                                        <li>
+                                            Get FREE Expedited Shipping
+                                        </li>
+
+                                        <li>
+                                            Earn 2 Points for Every $1 Spent
+                                        </li>
+
+                                        <li>
+                                            Redeem Points for VIP Codes
+                                        </li>
+
+                                        <li>
+                                            Receive Bonus Points on Select Brands
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer text-center">
+                    <div class="row p-0 footContent">
+                        <div class="col-12 me-5">
+                            <ul>
+                                <li>By signing in, you agree to Zappos
+                                </li>
+                                <li>
+                                    <a href="">Terms and Conditions</a> and<a href="">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="New-Category" class="Category">
+        <span id="The-Find">
+            <span id="Box-Find">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Find" class="class-Head-List">
+                        <a href="">The Find</a>
+                    </li>
+
+                    <li class="class-For-Find-List" id="Cozy Shop">
+                        <a class="class-For-link" href="">The Cozy Shop</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Loungewear">
+                        <a href="" class="class-For-link">The Cozy Loungewear Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cold-Weather">
+                        <a href="" class="class-For-link">Look Cute In Cold Weather</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Chilly-Campouts">
+                        <a href="" class="class-For-link">Chill Fits for Chilly Campouts</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cozy-Looks">
+                        <a href="" class="class-For-link">Luxe Cozy Looks</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Winter">
+                        <a href="" class="class-For-link">The Fall/Winter Plus-Size Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot-Guide">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Best-Coats">
+                        <a href="" class="class-For-link">Best Coats for Bundling Up</a>
+                    </li>
+                    <li class="class-For-Find-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">The Find New Arrivals</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-Style-Room">
+            <span id="Style-Room-Box">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Style-Room" class="class-Head-List">
+                        <a href="">The Style Room</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Jewelry">
+                        <a href="">Jewelry Moments with Pandora</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Hunter">
+                        <a href="">Brand Spotlight: Hunter</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Party">
+                        <a href="">The Party Edit</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Bags">
+                        <a href="">Interesting Bags</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Suede">
+                        <a href="">Leather & Suede</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Party">
+                        <a href="">Men’s Party Expression</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Winter">
+                        <a href="">Men’s Winter Collection</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Leather">
+                        <a href="">Men’s Leather Liaison</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Brands">
+            <span id="New-Brands-Box" class="class-For-span-float" style="padding: 1%;">
+                <ul id="New-Brands-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Brands" class="class-Head-List">
+                        <a href="">New Brands</a>
+                    </li>
+                    <li class="class-For-select-List" id="Fitch">
+                        <a href="">Abercrombie & Fitch</a>
+                    </li>
+                    <li class="class-For-select-List" id="Carbon38">
+                        <a href="">Carbon38</a>
+                    </li>
+                    <li class="class-For-select-List" id="Madewell">
+                        <a href="">Madewell</a>
+                    </li>
+                    <li class="class-For-select-List" id="Shoes">
+                        <a href="">Xero Shoes</a>
+                    </li>
+                    <li class="class-For-select-List" id="JEN7">
+                        <a href="">JEN7</a>
+                    </li>
+                    <li class="class-For-select-List" id="Universal">
+                        <a href="">UGG® Universal</a>
+                    </li>
+                    <li class="class-For-select-List" id="Havana">
+                        <a href="">Vintage Havana Kids</a>
+                    </li>
+                    <li class="class-For-select-List" id="Barefoot">
+                        <a href="">Barefoot Dreams</a>
+                    </li>
+                    <li class="class-For-select-List" id="Lee">
+                        <a href="">Lee</a>
+                    </li>
+                    <li class="class-For-select-List" id="BRABAR">
+                        <a href="">BRABAR</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Arrivals">
+            <span id="New-Arrivals-Box" class="class-For-span-float">
+                <ul id="New-Arrivals-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Arrivals" class="class-Head-List">
+                        <a href="">New Arrivals</a>
+                    </li>
+                    <li class="class-For-select-List" id="Candles">
+                        <a href="">Candles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Entertainment">
+                        <a href="">Dining & Entertainment</a>
+                    </li>
+                    <li class="class-For-select-List" id="Blankets">
+                        <a href="">Bedding & Blankets</a>
+                    </li>
+                    <li class="class-For-select-List" id="Mickey">
+                        <a href="">Hunter Meets Mickey</a>
+                    </li>
+                    <li class="class-For-select-List" id="Jordan">
+                        <a href="">Kids' Nike & Jordan Styles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Games">
+                        <a href="">Toys & Games</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <hr class="vertical" />
+        <i id="close-New1" class="fas fa-times c1"></i>
+        <div class="class-For-span-float offers">
+            <span id="first-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-All-New">Shop All New</button>
+            </span>
+            <br><br>
+            <span id="second-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-New">Shop All New</button>
+            </span>
+        </div>
+    </div>
+    <div id="Women-Category" class="Category">
+        <span id="The-Find">
+            <span id="Box-Find">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Find" class="class-Head-List">
+                        <a href="">The Find</a>
+                    </li>
+
+                    <li class="class-For-Find-List" id="Cozy Shop">
+                        <a class="class-For-link" href="">The Cozy Shop</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Loungewear">
+                        <a href="" class="class-For-link">The Cozy Loungewear Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cold-Weather">
+                        <a href="" class="class-For-link">Look Cute In Cold Weather</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Chilly-Campouts">
+                        <a href="" class="class-For-link">Chill Fits for Chilly Campouts</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cozy-Looks">
+                        <a href="" class="class-For-link">Luxe Cozy Looks</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Winter">
+                        <a href="" class="class-For-link">The Fall/Winter Plus-Size Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot-Guide">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Best-Coats">
+                        <a href="" class="class-For-link">Best Coats for Bundling Up</a>
+                    </li>
+                    <li class="class-For-Find-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">The Find New Arrivals</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-Style-Room">
+            <span id="Style-Room-Box">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Style-Room" class="class-Head-List">
+                        <a href="">The Style Room</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Jewelry">
+                        <a href="">Jewelry Moments with Pandora</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Hunter">
+                        <a href="">Brand Spotlight: Hunter</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Party">
+                        <a href="">The Party Edit</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Bags">
+                        <a href="">Interesting Bags</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Suede">
+                        <a href="">Leather & Suede</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Party">
+                        <a href="">Men’s Party Expression</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Winter">
+                        <a href="">Men’s Winter Collection</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Leather">
+                        <a href="">Men’s Leather Liaison</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Brands">
+            <span id="New-Brands-Box" class="class-For-span-float" style="padding: 1%;">
+                <ul id="New-Brands-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Brands" class="class-Head-List">
+                        <a href="">New Brands</a>
+                    </li>
+                    <li class="class-For-select-List" id="Fitch">
+                        <a href="">Abercrombie & Fitch</a>
+                    </li>
+                    <li class="class-For-select-List" id="Carbon38">
+                        <a href="">Carbon38</a>
+                    </li>
+                    <li class="class-For-select-List" id="Madewell">
+                        <a href="">Madewell</a>
+                    </li>
+                    <li class="class-For-select-List" id="Shoes">
+                        <a href="">Xero Shoes</a>
+                    </li>
+                    <li class="class-For-select-List" id="JEN7">
+                        <a href="">JEN7</a>
+                    </li>
+                    <li class="class-For-select-List" id="Universal">
+                        <a href="">UGG® Universal</a>
+                    </li>
+                    <li class="class-For-select-List" id="Havana">
+                        <a href="">Vintage Havana Kids</a>
+                    </li>
+                    <li class="class-For-select-List" id="Barefoot">
+                        <a href="">Barefoot Dreams</a>
+                    </li>
+                    <li class="class-For-select-List" id="Lee">
+                        <a href="">Lee</a>
+                    </li>
+                    <li class="class-For-select-List" id="BRABAR">
+                        <a href="">BRABAR</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Arrivals">
+            <span id="New-Arrivals-Box" class="class-For-span-float">
+                <ul id="New-Arrivals-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Arrivals" class="class-Head-List">
+                        <a href="">New Arrivals</a>
+                    </li>
+                    <li class="class-For-select-List" id="Candles">
+                        <a href="">Candles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Entertainment">
+                        <a href="">Dining & Entertainment</a>
+                    </li>
+                    <li class="class-For-select-List" id="Blankets">
+                        <a href="">Bedding & Blankets</a>
+                    </li>
+                    <li class="class-For-select-List" id="Mickey">
+                        <a href="">Hunter Meets Mickey</a>
+                    </li>
+                    <li class="class-For-select-List" id="Jordan">
+                        <a href="">Kids' Nike & Jordan Styles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Games">
+                        <a href="">Toys & Games</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <hr class="vertical" />
+        <i id="close-New2" class="fas fa-times c2"></i>
+        <div class="class-For-span-float offers">
+            <span id="first-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-All-New">Shop All New</button>
+            </span>
+            <br><br>
+            <span id="second-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-New">Shop All New</button>
+            </span>
+        </div>
+    </div>
+    <div id="Men-Category" class="Category">
+        <span id="The-Find">
+            <span id="Box-Find">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Find" class="class-Head-List">
+                        <a href="">The Find</a>
+                    </li>
+
+                    <li class="class-For-Find-List" id="Cozy Shop">
+                        <a class="class-For-link" href="">The Cozy Shop</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Loungewear">
+                        <a href="" class="class-For-link">The Cozy Loungewear Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cold-Weather">
+                        <a href="" class="class-For-link">Look Cute In Cold Weather</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Chilly-Campouts">
+                        <a href="" class="class-For-link">Chill Fits for Chilly Campouts</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cozy-Looks">
+                        <a href="" class="class-For-link">Luxe Cozy Looks</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Winter">
+                        <a href="" class="class-For-link">The Fall/Winter Plus-Size Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot-Guide">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Best-Coats">
+                        <a href="" class="class-For-link">Best Coats for Bundling Up</a>
+                    </li>
+                    <li class="class-For-Find-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">The Find New Arrivals</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-Style-Room">
+            <span id="Style-Room-Box">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Style-Room" class="class-Head-List">
+                        <a href="">The Style Room</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Jewelry">
+                        <a href="">Jewelry Moments with Pandora</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Hunter">
+                        <a href="">Brand Spotlight: Hunter</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Party">
+                        <a href="">The Party Edit</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Bags">
+                        <a href="">Interesting Bags</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Suede">
+                        <a href="">Leather & Suede</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Party">
+                        <a href="">Men’s Party Expression</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Winter">
+                        <a href="">Men’s Winter Collection</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Leather">
+                        <a href="">Men’s Leather Liaison</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Brands">
+            <span id="New-Brands-Box" class="class-For-span-float" style="padding: 1%;">
+                <ul id="New-Brands-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Brands" class="class-Head-List">
+                        <a href="">New Brands</a>
+                    </li>
+                    <li class="class-For-select-List" id="Fitch">
+                        <a href="">Abercrombie & Fitch</a>
+                    </li>
+                    <li class="class-For-select-List" id="Carbon38">
+                        <a href="">Carbon38</a>
+                    </li>
+                    <li class="class-For-select-List" id="Madewell">
+                        <a href="">Madewell</a>
+                    </li>
+                    <li class="class-For-select-List" id="Shoes">
+                        <a href="">Xero Shoes</a>
+                    </li>
+                    <li class="class-For-select-List" id="JEN7">
+                        <a href="">JEN7</a>
+                    </li>
+                    <li class="class-For-select-List" id="Universal">
+                        <a href="">UGG® Universal</a>
+                    </li>
+                    <li class="class-For-select-List" id="Havana">
+                        <a href="">Vintage Havana Kids</a>
+                    </li>
+                    <li class="class-For-select-List" id="Barefoot">
+                        <a href="">Barefoot Dreams</a>
+                    </li>
+                    <li class="class-For-select-List" id="Lee">
+                        <a href="">Lee</a>
+                    </li>
+                    <li class="class-For-select-List" id="BRABAR">
+                        <a href="">BRABAR</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Arrivals">
+            <span id="New-Arrivals-Box" class="class-For-span-float">
+                <ul id="New-Arrivals-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Arrivals" class="class-Head-List">
+                        <a href="">New Arrivals</a>
+                    </li>
+                    <li class="class-For-select-List" id="Candles">
+                        <a href="">Candles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Entertainment">
+                        <a href="">Dining & Entertainment</a>
+                    </li>
+                    <li class="class-For-select-List" id="Blankets">
+                        <a href="">Bedding & Blankets</a>
+                    </li>
+                    <li class="class-For-select-List" id="Mickey">
+                        <a href="">Hunter Meets Mickey</a>
+                    </li>
+                    <li class="class-For-select-List" id="Jordan">
+                        <a href="">Kids' Nike & Jordan Styles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Games">
+                        <a href="">Toys & Games</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <hr class="vertical" />
+        <i id="close-New3" class="fas fa-times c3"></i>
+        <div class="class-For-span-float offers">
+            <span id="first-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-All-New">Shop All New</button>
+            </span>
+            <br><br>
+            <span id="second-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-New">Shop All New</button>
+            </span>
+        </div>
+    </div>
+    <div id="Kids-Category" class="Category">
+        <span id="The-Find">
+            <span id="Box-Find">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Find" class="class-Head-List">
+                        <a href="">The Find</a>
+                    </li>
+
+                    <li class="class-For-Find-List" id="Cozy Shop">
+                        <a class="class-For-link" href="">The Cozy Shop</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Loungewear">
+                        <a href="" class="class-For-link">The Cozy Loungewear Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cold-Weather">
+                        <a href="" class="class-For-link">Look Cute In Cold Weather</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Chilly-Campouts">
+                        <a href="" class="class-For-link">Chill Fits for Chilly Campouts</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cozy-Looks">
+                        <a href="" class="class-For-link">Luxe Cozy Looks</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Winter">
+                        <a href="" class="class-For-link">The Fall/Winter Plus-Size Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot-Guide">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Best-Coats">
+                        <a href="" class="class-For-link">Best Coats for Bundling Up</a>
+                    </li>
+                    <li class="class-For-Find-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">The Find New Arrivals</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-Style-Room">
+            <span id="Style-Room-Box">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Style-Room" class="class-Head-List">
+                        <a href="">The Style Room</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Jewelry">
+                        <a href="">Jewelry Moments with Pandora</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Hunter">
+                        <a href="">Brand Spotlight: Hunter</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Party">
+                        <a href="">The Party Edit</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Bags">
+                        <a href="">Interesting Bags</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Suede">
+                        <a href="">Leather & Suede</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Party">
+                        <a href="">Men’s Party Expression</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Winter">
+                        <a href="">Men’s Winter Collection</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Leather">
+                        <a href="">Men’s Leather Liaison</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Brands">
+            <span id="New-Brands-Box" class="class-For-span-float" style="padding: 1%;">
+                <ul id="New-Brands-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Brands" class="class-Head-List">
+                        <a href="">New Brands</a>
+                    </li>
+                    <li class="class-For-select-List" id="Fitch">
+                        <a href="">Abercrombie & Fitch</a>
+                    </li>
+                    <li class="class-For-select-List" id="Carbon38">
+                        <a href="">Carbon38</a>
+                    </li>
+                    <li class="class-For-select-List" id="Madewell">
+                        <a href="">Madewell</a>
+                    </li>
+                    <li class="class-For-select-List" id="Shoes">
+                        <a href="">Xero Shoes</a>
+                    </li>
+                    <li class="class-For-select-List" id="JEN7">
+                        <a href="">JEN7</a>
+                    </li>
+                    <li class="class-For-select-List" id="Universal">
+                        <a href="">UGG® Universal</a>
+                    </li>
+                    <li class="class-For-select-List" id="Havana">
+                        <a href="">Vintage Havana Kids</a>
+                    </li>
+                    <li class="class-For-select-List" id="Barefoot">
+                        <a href="">Barefoot Dreams</a>
+                    </li>
+                    <li class="class-For-select-List" id="Lee">
+                        <a href="">Lee</a>
+                    </li>
+                    <li class="class-For-select-List" id="BRABAR">
+                        <a href="">BRABAR</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Arrivals">
+            <span id="New-Arrivals-Box" class="class-For-span-float">
+                <ul id="New-Arrivals-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Arrivals" class="class-Head-List">
+                        <a href="">New Arrivals</a>
+                    </li>
+                    <li class="class-For-select-List" id="Candles">
+                        <a href="">Candles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Entertainment">
+                        <a href="">Dining & Entertainment</a>
+                    </li>
+                    <li class="class-For-select-List" id="Blankets">
+                        <a href="">Bedding & Blankets</a>
+                    </li>
+                    <li class="class-For-select-List" id="Mickey">
+                        <a href="">Hunter Meets Mickey</a>
+                    </li>
+                    <li class="class-For-select-List" id="Jordan">
+                        <a href="">Kids' Nike & Jordan Styles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Games">
+                        <a href="">Toys & Games</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <hr class="vertical" />
+        <i id="close-New4" class="fas fa-times c4"></i>
+        <div class="class-For-span-float offers">
+            <span id="first-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-All-New">Shop All New</button>
+            </span>
+            <br><br>
+            <span id="second-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-New">Shop All New</button>
+            </span>
+        </div>
+    </div>
+    <div id="Departments-Category" class="Category">
+        <span id="The-Find">
+            <span id="Box-Find">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Find" class="class-Head-List">
+                        <a href="">The Find</a>
+                    </li>
+
+                    <li class="class-For-Find-List" id="Cozy Shop">
+                        <a class="class-For-link" href="">The Cozy Shop</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Loungewear">
+                        <a href="" class="class-For-link">The Cozy Loungewear Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cold-Weather">
+                        <a href="" class="class-For-link">Look Cute In Cold Weather</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Chilly-Campouts">
+                        <a href="" class="class-For-link">Chill Fits for Chilly Campouts</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cozy-Looks">
+                        <a href="" class="class-For-link">Luxe Cozy Looks</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Winter">
+                        <a href="" class="class-For-link">The Fall/Winter Plus-Size Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot-Guide">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Best-Coats">
+                        <a href="" class="class-For-link">Best Coats for Bundling Up</a>
+                    </li>
+                    <li class="class-For-Find-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">The Find New Arrivals</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-Style-Room">
+            <span id="Style-Room-Box">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Style-Room" class="class-Head-List">
+                        <a href="">The Style Room</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Jewelry">
+                        <a href="">Jewelry Moments with Pandora</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Hunter">
+                        <a href="">Brand Spotlight: Hunter</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Party">
+                        <a href="">The Party Edit</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Bags">
+                        <a href="">Interesting Bags</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Suede">
+                        <a href="">Leather & Suede</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Party">
+                        <a href="">Men’s Party Expression</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Winter">
+                        <a href="">Men’s Winter Collection</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Leather">
+                        <a href="">Men’s Leather Liaison</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Brands">
+            <span id="New-Brands-Box" class="class-For-span-float" style="padding: 1%;">
+                <ul id="New-Brands-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Brands" class="class-Head-List">
+                        <a href="">New Brands</a>
+                    </li>
+                    <li class="class-For-select-List" id="Fitch">
+                        <a href="">Abercrombie & Fitch</a>
+                    </li>
+                    <li class="class-For-select-List" id="Carbon38">
+                        <a href="">Carbon38</a>
+                    </li>
+                    <li class="class-For-select-List" id="Madewell">
+                        <a href="">Madewell</a>
+                    </li>
+                    <li class="class-For-select-List" id="Shoes">
+                        <a href="">Xero Shoes</a>
+                    </li>
+                    <li class="class-For-select-List" id="JEN7">
+                        <a href="">JEN7</a>
+                    </li>
+                    <li class="class-For-select-List" id="Universal">
+                        <a href="">UGG® Universal</a>
+                    </li>
+                    <li class="class-For-select-List" id="Havana">
+                        <a href="">Vintage Havana Kids</a>
+                    </li>
+                    <li class="class-For-select-List" id="Barefoot">
+                        <a href="">Barefoot Dreams</a>
+                    </li>
+                    <li class="class-For-select-List" id="Lee">
+                        <a href="">Lee</a>
+                    </li>
+                    <li class="class-For-select-List" id="BRABAR">
+                        <a href="">BRABAR</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Arrivals">
+            <span id="New-Arrivals-Box" class="class-For-span-float">
+                <ul id="New-Arrivals-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Arrivals" class="class-Head-List">
+                        <a href="">New Arrivals</a>
+                    </li>
+                    <li class="class-For-select-List" id="Candles">
+                        <a href="">Candles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Entertainment">
+                        <a href="">Dining & Entertainment</a>
+                    </li>
+                    <li class="class-For-select-List" id="Blankets">
+                        <a href="">Bedding & Blankets</a>
+                    </li>
+                    <li class="class-For-select-List" id="Mickey">
+                        <a href="">Hunter Meets Mickey</a>
+                    </li>
+                    <li class="class-For-select-List" id="Jordan">
+                        <a href="">Kids' Nike & Jordan Styles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Games">
+                        <a href="">Toys & Games</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <hr class="vertical" />
+        <i id="close-New5" class="fas fa-times c5"></i>
+        <div class="class-For-span-float offers">
+            <span id="first-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-All-New">Shop All New</button>
+            </span>
+            <br><br>
+            <span id="second-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-New">Shop All New</button>
+            </span>
+        </div>
+    </div>
+    <div id="Brands-Category" class="Category">
+        <i id="close-New6" class="fas fa-times c6"></i>
+        <div id="">
+            <div id="">
+                <ul id="ul_top_hypers" style="margin: 0%;padding: 7%;">
+                    <li id="Find" class="class-Head-List">
+                        <a href="">Brand Index</a>
+                    </li>
+                    <br>
+                    <br>
+                    <br>
+
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a class="class-For-link" href="">#</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a class="class-For-link" href="">A</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">B</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">C</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">D</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">E</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">F</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">G</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">H</a>
+                    </li>
+                    <li class="class-For-B-List" id="v">
+                        <a href="" class="class-For-link">I</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">J</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">K</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">L</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">M</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">N</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">O</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">P</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">Q</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">R</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">S</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">T</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">U</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">V</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">W</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">Y</a>
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">Z</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr style="width: 80%;margin-left: 10%;" />
+        <div id="">
+            <div id="">
+                <ul id="ul_top_hypers" style="margin: 0%;padding-left: 7%; padding-top: 1%;">
+                    <li id="Find" class="class-Head-List">
+                        <a href="">Featured Brands</a>
+                    </li>
+                    <br>
+                    <br>
+
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <img class="class-For-link"
+                            src="https://m.media-amazon.com/images/G/01/2020/trendingbrandlogos/TNFfeaturedbrandslogo.png">
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <img class="class-For-link"
+                            src="https://m.media-amazon.com/images/G/01/2021/dr-martens/drmartens-brand-index-logo.jpg">
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <img class="class-For-link"
+                            src="https://m.media-amazon.com/images/G/01/2020/trendingbrandlogos/crocs-brand-index-logo.jpg">
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <img class="class-For-link"
+                            src="https://m.media-amazon.com/images/G/01/2021/brandindex/hoka-brand-index-logo.jpg">
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <img class="class-For-link"
+                            src="https://m.media-amazon.com/images/G/01/2021/brandindex/converse-brand-index-logo.jpg">
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <img class="class-For-link"
+                            src="https://m.media-amazon.com/images/G/01/2021/brandindex/hoka-brand-index-logo.jpg">
+                    </li>
+                    <li class="class-For-B-List" id="New-Arrivals">
+                        <img class="class-For-link"
+                            src="https://m.media-amazon.com/images/G/01/2021/brandindex/adidas-brand-index-logo.jpg">
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="Sale-Category" class="Category">
+        <span id="The-Find">
+            <span id="Box-Find">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Find" class="class-Head-List">
+                        <a href="">The Find</a>
+                    </li>
+
+                    <li class="class-For-Find-List" id="Cozy Shop">
+                        <a class="class-For-link" href="">The Cozy Shop</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Loungewear">
+                        <a href="" class="class-For-link">The Cozy Loungewear Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cold-Weather">
+                        <a href="" class="class-For-link">Look Cute In Cold Weather</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Chilly-Campouts">
+                        <a href="" class="class-For-link">Chill Fits for Chilly Campouts</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cozy-Looks">
+                        <a href="" class="class-For-link">Luxe Cozy Looks</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Winter">
+                        <a href="" class="class-For-link">The Fall/Winter Plus-Size Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot-Guide">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Best-Coats">
+                        <a href="" class="class-For-link">Best Coats for Bundling Up</a>
+                    </li>
+                    <li class="class-For-Find-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">The Find New Arrivals</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-Style-Room">
+            <span id="Style-Room-Box">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Style-Room" class="class-Head-List">
+                        <a href="">The Style Room</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Jewelry">
+                        <a href="">Jewelry Moments with Pandora</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Hunter">
+                        <a href="">Brand Spotlight: Hunter</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Party">
+                        <a href="">The Party Edit</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Bags">
+                        <a href="">Interesting Bags</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Suede">
+                        <a href="">Leather & Suede</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Party">
+                        <a href="">Men’s Party Expression</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Winter">
+                        <a href="">Men’s Winter Collection</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Leather">
+                        <a href="">Men’s Leather Liaison</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Brands">
+            <span id="New-Brands-Box" class="class-For-span-float" style="padding: 1%;">
+                <ul id="New-Brands-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Brands" class="class-Head-List">
+                        <a href="">New Brands</a>
+                    </li>
+                    <li class="class-For-select-List" id="Fitch">
+                        <a href="">Abercrombie & Fitch</a>
+                    </li>
+                    <li class="class-For-select-List" id="Carbon38">
+                        <a href="">Carbon38</a>
+                    </li>
+                    <li class="class-For-select-List" id="Madewell">
+                        <a href="">Madewell</a>
+                    </li>
+                    <li class="class-For-select-List" id="Shoes">
+                        <a href="">Xero Shoes</a>
+                    </li>
+                    <li class="class-For-select-List" id="JEN7">
+                        <a href="">JEN7</a>
+                    </li>
+                    <li class="class-For-select-List" id="Universal">
+                        <a href="">UGG® Universal</a>
+                    </li>
+                    <li class="class-For-select-List" id="Havana">
+                        <a href="">Vintage Havana Kids</a>
+                    </li>
+                    <li class="class-For-select-List" id="Barefoot">
+                        <a href="">Barefoot Dreams</a>
+                    </li>
+                    <li class="class-For-select-List" id="Lee">
+                        <a href="">Lee</a>
+                    </li>
+                    <li class="class-For-select-List" id="BRABAR">
+                        <a href="">BRABAR</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Arrivals">
+            <span id="New-Arrivals-Box" class="class-For-span-float">
+                <ul id="New-Arrivals-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Arrivals" class="class-Head-List">
+                        <a href="">New Arrivals</a>
+                    </li>
+                    <li class="class-For-select-List" id="Candles">
+                        <a href="">Candles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Entertainment">
+                        <a href="">Dining & Entertainment</a>
+                    </li>
+                    <li class="class-For-select-List" id="Blankets">
+                        <a href="">Bedding & Blankets</a>
+                    </li>
+                    <li class="class-For-select-List" id="Mickey">
+                        <a href="">Hunter Meets Mickey</a>
+                    </li>
+                    <li class="class-For-select-List" id="Jordan">
+                        <a href="">Kids' Nike & Jordan Styles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Games">
+                        <a href="">Toys & Games</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <hr class="vertical" />
+        <i id="close-New7" class="fas fa-times c7"></i>
+        <div class="class-For-span-float offers">
+            <span id="first-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-All-New">Shop All New</button>
+            </span>
+            <br><br>
+            <span id="second-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-New">Shop All New</button>
+            </span>
+        </div>
+    </div>
+    <div id="Clothing-Category" class="Category">
+        <span id="The-Find">
+            <span id="Box-Find">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Find" class="class-Head-List">
+                        <a href="">The Find</a>
+                    </li>
+
+                    <li class="class-For-Find-List" id="Cozy Shop">
+                        <a class="class-For-link" href="">The Cozy Shop</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Loungewear">
+                        <a href="" class="class-For-link">The Cozy Loungewear Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cold-Weather">
+                        <a href="" class="class-For-link">Look Cute In Cold Weather</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Chilly-Campouts">
+                        <a href="" class="class-For-link">Chill Fits for Chilly Campouts</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Cozy-Looks">
+                        <a href="" class="class-For-link">Luxe Cozy Looks</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Winter">
+                        <a href="" class="class-For-link">The Fall/Winter Plus-Size Edit</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot-Guide">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Ultimate-Boot">
+                        <a href="" class="class-For-link">The Ultimate Boot Guide</a>
+                    </li>
+                    <li class="class-For-Find-List" id="Best-Coats">
+                        <a href="" class="class-For-link">Best Coats for Bundling Up</a>
+                    </li>
+                    <li class="class-For-Find-List" id="New-Arrivals">
+                        <a href="" class="class-For-link">The Find New Arrivals</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-Style-Room">
+            <span id="Style-Room-Box">
+                <ul id="Find-List" style="margin: 0%;">
+                    <li id="Style-Room" class="class-Head-List">
+                        <a href="">The Style Room</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Jewelry">
+                        <a href="">Jewelry Moments with Pandora</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Hunter">
+                        <a href="">Brand Spotlight: Hunter</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Party">
+                        <a href="">The Party Edit</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Bags">
+                        <a href="">Interesting Bags</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Suede">
+                        <a href="">Leather & Suede</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Party">
+                        <a href="">Men’s Party Expression</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Winter">
+                        <a href="">Men’s Winter Collection</a>
+                    </li>
+                    <li class="class-For-Room-Style-List" id="Men-Leather">
+                        <a href="">Men’s Leather Liaison</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Brands">
+            <span id="New-Brands-Box" class="class-For-span-float" style="padding: 1%;">
+                <ul id="New-Brands-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Brands" class="class-Head-List">
+                        <a href="">New Brands</a>
+                    </li>
+                    <li class="class-For-select-List" id="Fitch">
+                        <a href="">Abercrombie & Fitch</a>
+                    </li>
+                    <li class="class-For-select-List" id="Carbon38">
+                        <a href="">Carbon38</a>
+                    </li>
+                    <li class="class-For-select-List" id="Madewell">
+                        <a href="">Madewell</a>
+                    </li>
+                    <li class="class-For-select-List" id="Shoes">
+                        <a href="">Xero Shoes</a>
+                    </li>
+                    <li class="class-For-select-List" id="JEN7">
+                        <a href="">JEN7</a>
+                    </li>
+                    <li class="class-For-select-List" id="Universal">
+                        <a href="">UGG® Universal</a>
+                    </li>
+                    <li class="class-For-select-List" id="Havana">
+                        <a href="">Vintage Havana Kids</a>
+                    </li>
+                    <li class="class-For-select-List" id="Barefoot">
+                        <a href="">Barefoot Dreams</a>
+                    </li>
+                    <li class="class-For-select-List" id="Lee">
+                        <a href="">Lee</a>
+                    </li>
+                    <li class="class-For-select-List" id="BRABAR">
+                        <a href="">BRABAR</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <span id="The-New-Arrivals">
+            <span id="New-Arrivals-Box" class="class-For-span-float">
+                <ul id="New-Arrivals-List" class="class-For-a-Style" style="margin: 0%;">
+                    <li id="New-Arrivals" class="class-Head-List">
+                        <a href="">New Arrivals</a>
+                    </li>
+                    <li class="class-For-select-List" id="Candles">
+                        <a href="">Candles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Entertainment">
+                        <a href="">Dining & Entertainment</a>
+                    </li>
+                    <li class="class-For-select-List" id="Blankets">
+                        <a href="">Bedding & Blankets</a>
+                    </li>
+                    <li class="class-For-select-List" id="Mickey">
+                        <a href="">Hunter Meets Mickey</a>
+                    </li>
+                    <li class="class-For-select-List" id="Jordan">
+                        <a href="">Kids' Nike & Jordan Styles</a>
+                    </li>
+                    <li class="class-For-select-List" id="Games">
+                        <a href="">Toys & Games</a>
+                    </li>
+                </ul>
+            </span>
+        </span>
+        <hr class="vertical" />
+        <i id="close-New8" class="fas fa-times c8"></i>
+        <div class="class-For-span-float offers">
+            <span id="first-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-All-New">Shop All New</button>
+            </span>
+            <br><br>
+            <span id="second-Offer">
+                <img id="Offer-img"
+                    src="https://m.media-amazon.com/images/G/01/2021/Global-Nav/December/COOP-ASICS-GT2000-GLOBAL-350x350.jpg">
+                <button id="Shop-New">Shop All New</button>
+            </span>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div id="Advertising" style="display: none;">
+        <div style="width: 10%;">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div id="Advertising-Style" style="width: 80%;">
+            <div id="Advertis-1" class="Adv">
+                FREE 365 Day Returns and Exchanges!
+            </div>
+            <div id="Advertis-2" class="Adv">
+                Easy Returns!
+            </div>
+            <div id="Advertis-3" class="Adv">
+                Be the first to shop the newest blankets, pillows, drinkware & more—all on Zappos!
+            </div>
+        </div>
+        <div style="width: 10%;text-align: center;">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    <div id="carouselExampleControls" style="z-index: 0;" class="carousel slide text-center" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                FREE 365 Day Returns and Exchanges!
+            </div>
+            <div class="carousel-item">
+                Easy Returns!
+            </div>
+            <div class="carousel-item">
+                Be the first to shop the newest blankets, pillows, drinkware & more—all on Zappos!
+            </div>
+        </div>
+        <button class="carousel-control-prev" style="z-index: 0;" type="button"
+            data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" style="z-index: 0;" type="button"
+            data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div style="clear:both"></div>
+    <div id="section-Two">
+        <a href="#">
+            <img src="images/1.png" width="1400px" height="500" style="margin-left:4%;margin-top: 1px;">
+        </a>
+    </div>
+
+            <!-- RH Part -->
+            <h2 class="container pt-5"> Grab These Must-Have Clearance Styles </h2>
+            <div class="rowRH container" >
+                <a href="https://www.Zappos.com" class="linkStyle">
+                 <div class="columnRH" >
+                   <div class="c1">
+                       <img src="images/91K4coUfddL._AC_SR736,920_.jpg" alt="boot" >
+                   </div>
+                   <div>
+                        <p class="p1 PaddingForTitle"onmouseover="mouseOver()" onmouseout="mouseOut()">
+                            Shop $50 & Under Clearance 
+                        </p>
+                    </div>
+                </a>
+            </div>
+               
+            <a href="https://www.Zappos.com" class="linkStyle"> <div class="columnRH">
+                   <div class="c1">
+                       <img src="images/1.10_HP_Refresh_Lined_Crocs_768x960.jpg.webp" alt="boot" >
+   
+                   </div>
+                   <div>
+                        <p class="p1 center PaddingForTitle" onmouseover="mouseOver()" onmouseout="mouseOut()"> Shop Sneakers Clearance </p>
+                   </div>
+                
+            </a>
+                 
+               </div>
+             <a href="https://www.Zappos.com" class="linkStyle"><div class="columnRH">
+                   <div class="c1">
+                       <img src="images/12.20_HP_Refresh_Hero_Banner_Cozy_1825x925_V3.jpg.webp" alt="boot" >
+                   </div>
+                   <div>
+                     <p class="p1 center PaddingForTitle" onmouseover="mouseOver()" onmouseout="mouseOut()">Shop Boots Clearance </p>
+                   </div>
+                 </a>
+                 
+               </div>
+              <a href="https://www.Zappos.com" class="linkStyle">
+                  <div class="columnRH">
+                   <div class="c1">
+                       <img src="images/2.11.15_Vis_Nav_Cold_Weather_768x960.jpg.webp" alt="boot" >
+                   </div>
+                   <div>
+                       <p class="p1 center PaddingForTitle" onmouseover="mouseOver()" onmouseout="mouseOut()"> Shop Coats Clearance</p>
+                   </div>
+                 </a>
+                   
+                 </div>
+                <a href="https://www.Zappos.com" class="linkStyle"><div class="columnRH">
+                   <div class="c1">
+                       <img src="images/71hAWN8-VdL._AC_SX255_ (1).jpg" alt="boot" >
+   
+                   </div>
+                   <div>
+                        <p class="p1 center PaddingForTitle" onmouseover="mouseOver()" onmouseout="mouseOut()">Shop Slippers Clearance</p>
+                   </div>
+                 </a>
+   
+                   
+                 </div>
+               <a href="https://www.Zappos.com" class="linkStyle">
+                   <div class="columnRH">
+                   <div class="c1">
+                       <img src="images/81QQyxsB7aL._AC_SX255_.jpg" alt="boot" >
+   
+                   </div>
+                   <div>
+                           <p class="p1 center PaddingForTitle" onmouseover="mouseOver()" onmouseout="mouseOut()">Shop Sandals Clearance</p>  
+                   </div>
+                 </a>
+   
+                 </div>
+   
+            </div>
+   
+            <div class="row2">
+             <a href="https://www.Zappos.com" class="linkStyle"><div class="column2 c2"  >
+                  <div>
+                   <img src="images/HOMEPAGE-WINTER-CLEARANCE-SHOES-TRIPTYCH-500x500.png" alt="sandle" height="450px" width="450">
+                 </div>
+                   <div class="class2" >
+                   <div class="uimg" onmouseover="mouseOver()" style="color: black;">Clearance Shoes<br><br>
+                 </div></a>
+                   <div>
+                   <a  href="https://www.Zappos.com" class="linkStyle" style="color: black;">Find footwear favorites at prices you’ll love!</a><br><br><br>
+                   </div>
+                 <div class=" unimg clrlink">
+                   <a  href="https://www.Zappos.com" class="linkStyle" onmouseover="onlink()">SHOP SHOES ON CLEARANCE</a>
+               </div>
+                </div>
+              </div>
+           <a href="https://www.Zappos.com" class="linkStyle"><div class="column2 c2" alt="sandle" >
+             <div>
+                   <img src="images/HOMEPAGE-WINTER-CLEARANCE-WOMENS-TRIPTYCH-500x500.png" alt="sandle" height="450px" width="450" >
+             </div>
+                  <div class="class2">
+                   
+                   <div class="uimg" style="color: black;" >  Winter Clearance for Women<br><br>
+                   </div>
+                 </a>
+                   <div >
+                     <div>
+                   <a  href="https://www.Zappos.com" class="linkStyle" style="color: black;">  Enjoy savings on your favorite brand names!</a><br><br><br>
+                     </div>
+                   <div class="unimg clrlink">
+                       <a href="https://www.Zappos.com" class="linkStyle" onmouseover="onlink()">SHOP WOMEN'S ON CLEARANCE</a>
+                   </div>
+                   </div>
+                   
+                   
+                  </div>
+               </div>
+           <a href="https://www.Zappos.com" class="linkStyle">
+               <div class="column2 c2">
+             <div>
+                   <img src="images/HOMEPAGE-WINTER-CLEARANCE-MENS-TRIPTYCH-500x500.png" alt="sandle"  height="450px" width="450">
+             </div>
+                   <div class="class2 ">
+                     
+   
+                   <div class="uimg" style="color: black;"> Winter Clearance for Men <br><br>
+                 </div>
+               </a>
+                   
+   
+                     <a  href="https://www.Zappos.com" class="linkStyle" style="color: black ;" > Save on coats, fleece, boots, denim, and more! </a><br><br><br>
+                     <div class="unimg clrlink">
+                       <a href="https://www.Zappos.com" class="linkStyle"  onmouseover="onlink()">SHOP MEN'S ON CLEARANCE</a>
+                   </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+   
+            <div class="row3 container" >
+                <div class="pic3">
+                    <img style="text-align: center;" src="images/COOP-NEW-ARRIVAL-LOGO-1X_3.svg"  alt="sandle" >
+                    <br><br>
+                    <a href="https://www.Zappos.com" class="linkStyle"> 
+                        <p style="font-size: 26px; text-align: center;color: black;">
+                            Get plush warmth with the Crocs Neo Puff Boot and other cozy arrivals.
+                        </p>
+                        <br>
+                    <div style="text-align: center;">
+                    <button class="BW-BTN" onmouseover="https://www.Zappos.com">SHOP WOMEN'S SLIBBERS</button> 
+   
+                    <!-- <a href="https://www.Zappos.com">SHOP WOMEN'S SLIBBERS</a> -->
+                   </div>   
+                
+                </div>
+               </a>
+                
+            <a  href="https://www.Zappos.com" class="linkStyle"> 
+                <div class="coloumn3">
+                   <img src="images/COOP-STEVE-MADDEN-NEW-ARRIVALS-TABLET-RIGHT-1X-615x634 (1).png" alt="sandle" >
+                </div>
+            </a>
+   
+            </div>
+   
+   
+            <div class="row4">
+             <div class="column4 p4"><br><br>
+               <div>
+                 <a  href="https://www.Zappos.com" class="linkStyle">
+                     <p style="font-weight: bold;color: black;font-size: 30px;">Ring In the New Year -Cozy-Luxe Style  </p>
+                    <p style="font-size: 25px;font-weight: normal;">watch the ball drop in cozy luxy looks that are a little bit glam -and a whole lot of fun</p>
+                    <button class="BW-BTN" >SHOP THE LOOKS</button>
+                </div>
+            </a>
+             </div>
+              
+             <a href="https://www.Zappos.com" class="linkStyle"> 
+                <div class="column4">
+               <img src="images/COOP-AOE-COZY-LUXE-960x500._SX1024_.jpg" alt="Forest" >
+             </div>
+            </a>
+           </div>
+   
+            <div style="clear:both"></div>
+
+    <!-- Fatma Part -->
+    <!-- First Part -->
+    <div id="FIRSTPART">
+
+        <!-- Div Content -->
+        <div class="Slider1">
+            <h1 class="slider-title">Popular Items</h1>
+            <div><i class="fas fa-chevron-left prev1"></i></div>
+            <div><i class="fas fa-chevron-right next1"></i></div>
+            <!-- Slider -->
+            <div class="BrandSlider1" style="height: 500px; margin-top: 5%;">
+                <!-- Slide 1 -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 2 -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 3 -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 4 -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 5 -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Slide 6 -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Slide 7  -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 8  -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 9  -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 10  -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 11  -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 12  -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 13  -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 14  -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 15  -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 16  -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 17  -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Slide 18  -->
+                <a class="BS-Anchor" href="#">
+
+                    <img class="BS-IMG" src="images/Slider11.png">
+
+                    <div class="BS-LOWERDIV">
+                        <div class="BS-NO1">
+                            <i class="far fa-heart"></i> 4450
+                        </div>
+                        <div class="BS-NO2">
+                            <p class="L1">Sankers</p>
+                            <p class="L2">Nike Snakers</p>
+                            <p class="L3">$49.57</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <!-- Second Part -->
+    <div id="SECONDPART">
+        <div>
+            <img src="images/Girl1.jpg">
+        </div>
+        <div id="SecondP-Div">
+            <img src="images/The-Style-Room-Logo.svg" style="width: 70%;">
+            <div> The Party Edit: Prep your closet for holiday soirees with our favorite party-approved trends —from
+                at-home luxe to pent up party goer!</div>
+            <button class="BW-BTN">SHOP THE PARTY EDIT</button>
+        </div>
+    </div>
+    <!-- Third Part -->
+    <div class="ThIRDPART">
+
+        <!-- Content Div -->
+        <div class="Slider1">
+            <h1 class="slider-title">Trending Brands</h1>
+            <div><i class="fas fa-chevron-left prev2"></i></div>
+            <div><i class="fas fa-chevron-right next2"></i></div>
+
+            <!-- Slider -->
+            <div class="BrandSlider2" style="height: 500px; margin-top: 5%;">
+
+                <!-- No 1 -->
+                <div class="BS">
+                    <div class="BS-IMGD"><img class="BS-IMG" src="images/NN.png"></div>
+                    <p class="BS-P">Nike</p>
+                </div>
+
+                <!-- No 2 -->
+                <div class="BS">
+                    <div class="BS-IMGD"><img class="BS-IMG" src="images/OrangeNike.png"></div>
+                    <p class="BS-P">Nike Kids</p>
+                </div>
+                <!-- No 3 -->
+                <div class="BS">
+                    <div class="BS-IMGD"><img class="BS-IMG" src="images/UGG.svg"></div>
+                    <p class="BS-P">UGG</p>
+                </div>
+                <!-- No 4 -->
+                <div class="BS">
+                    <div class="BS-IMGD"><img class="BS-IMG" src="images/vans.png"></div>
+                    <p class="BS-P">Vans</p>
+                </div>
+                <!-- No 5 -->
+                <div class="BS">
+                    <div class="BS-IMGD"><img class="BS-IMG" src="images/NewBalance.png"></div>
+                    <p class="BS-P">New Balance</p>
+                </div>
+
+                <!-- No 6 -->
+                <div class="BS">
+                    <div class="BS-IMGD"><img class="BS-IMG" src="images/clark.png"></div>
+                    <p class="BS-P">Clark</p>
+                </div>
+                <!-- No 7 -->
+                <div class="BS">
+                    <div class="BS-IMGD"><img class="BS-IMG" src="images/NN.png"></div>
+                    <p class="BS-P">ASICS</p>
+                </div>
+                <!-- No 8 -->
+                <div class="BS">
+                    <div class="BS-IMGD"><img class="BS-IMG" src="images/NewBalanceKids.png"></div>
+                    <p class="BS-P">New Balance Kids</p>
+                </div>
+                <!-- No 9 -->
+                <div class="BS">
+                    <div class="BS-IMGD"><img class="BS-IMG" src="images/NorthFace.png"></div>
+                    <p class="BS-P">The North Face</p>
+                </div>
+
+                <!-- No 10 -->
+                <div class="BS">
+                    <div class="BS-IMGD"><img class="BS-IMG" src="images/NN.png"></div>
+                    <p class="BS-P">Sam Edelman</p>
+                </div>
+                <!-- No 11 -->
+                <div class="BS">
+                    <div class="BS-IMGD"><img class="BS-IMG" src="images/Brooks.png"></div>
+                    <p class="BS-P">Brooks</p>
+                </div>
+                <!-- No 12 -->
+                <div class="BS">
+                    <div class="BS-IMGD"><img class="BS-IMG" src="images/Converse.svg"></div>
+                    <p class="BS-P">Converse</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Last Part -->
+    <div id="LASTPART">
+        <div>
+            <!-- Black Panner -->
+            <img id="BlackPanner" src="images/blackpanner.jpg">
+
+        </div>
+        <!-- Three Panners -->
+        <div id="ThreepannersDiv">
+            <!-- Panner 1 -->
+            <a id="pannerA1" class="pannersA" href="#">
+                <div>
+                    <img class="pannerimg" src="images/panner1.png">
+                </div>
+                <div>
+                    <h3 class="pannerline1">Diversity Equity & Inclusion</h3>
+                    <div class="pannerline2">At Zappos, diversity and individuality are central to our core values.
+                    </div>
+                    <p class="pannerline3">LEARN MORE ABOUT ZAPPOS ONE PURPOSE</p>
+                </div>
+            </a>
+
+            <!-- Panner 2 -->
+            <a id="pannerA2" class="pannersA" href="#">
+                <div>
+                    <img class="pannerimg" src="images/panner2.jpg">
+                </div>
+                <div>
+                    <h3 class="pannerline1"> We're In This Together</h3>
+                    <div class="pannerline2"> Now, perhaps more than ever, we’re all looking for ways to give back.
+                    </div>
+                    <p class="pannerline3"> ZAPPOS FOR GOOD INITIATIVES</p>
+                </div>
+            </a>
+            <!-- Panner 3 -->
+            <a id="pannerA3" class="pannersA" href="#">
+                <div>
+                    <img class="pannerimg" src="images/panner3.png">
+                </div>
+                <div>
+
+                    <h3 class="pannerline1">Goods for Good</h3>
+                    <div class="pannerline2">We're highlighting brands who are making a difference and helping build a
+                        better place for us all.</div>
+                    <p class="pannerline3">SHOP GOODS FOR GOOD</p>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+    <div style="clear:both"></div>
+    <footer>
+        <div id="Footer-Section-one" class="FooterStyle">
+            <div id="inBox">
+                Make your inbox happy by joining our exclusive newsletter!
+            </div>
+            <div id="EmailBox">
+                <div class="row g-0">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <div class="col-auto" id="Div-EmailBox">
+                        <input type="email" class="form-control" id="EmailAddressBox" placeholder="Email Address">
+                    </div>
+                    <div class="col-auto ms-4">
+                        <button type="submit" id="SignUpToDayBtn" class="btn btn-primary mb-3"><i
+                                class="fas fa-envelope-open"></i>&nbsp;SIGNUP TODAY</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Footer-Section-two">
+            <div id="Section-two-content">
+                <div class="row g-0">
+                    <div class="col-auto" id="col-one">
+                        <span id="First-Col">
+                            <span id="Box-ExploreZappos">
+                                <ul id="Explore-Zappos-List">
+                                    <li id="Explore-Zappos" class="class-Explore-Zappos-Head-List">
+                                        <a href="">Explore Zappos</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Brands">
+                                        <a class="class-For-link" href="">Brands</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Clothing">
+                                        <a href="" class="class-For-link">Clothing</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="TheStyleRoom">
+                                        <a href="" class="class-For-link">The Style Room</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Eyewear">
+                                        <a href="" class="class-For-link">Eyewear</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Outdoor">
+                                        <a href="" class="class-For-link">Outdoor</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Rideshop">
+                                        <a href="" class="class-For-link">Rideshop</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Running">
+                                        <a href="" class="class-For-link">Running</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Jackets">
+                                        <a href="" class="class-For-link">Jackets</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="LeatherJackets">
+                                        <a href="" class="class-For-link">Leather Jackets</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="RainJackets">
+                                        <a href="" class="class-For-link">Rain Jackets</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Shoes">
+                                        <a href="" class="class-For-link">Shoes</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Watches">
+                                        <a href="" class="class-For-link">Watches</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Wedding">
+                                        <a href="" class="class-For-link">Wedding</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="DenimJackets">
+                                        <a href="" class="class-For-link">Denim Jackets</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="ZapposAdaptive">
+                                        <a href="" class="class-For-link">Zappos Adaptive</a>
+                                    </li>
+                                </ul>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="col-auto" id="col-two">
+                        <span id="Second-Col">
+                            <span id="Box-ExploreZappos">
+                                <ul id="Explore-Zappos-List">
+                                    <li id="CustomerService" class="class-Explore-Zappos-Head-List">
+                                        <a href="">Customer Service</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="FAQs">
+                                        <a class="class-For-link" href="">FAQs</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="ContactInfo">
+                                        <a href="" class="class-For-link">Contact Info</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="¿Ayudaenespañol?">
+                                        <a href="" class="class-For-link">¿Ayuda en español?</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="AboutProposition65">
+                                        <a href="" class="class-For-link">About Proposition 65</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="FitInfo">
+                                        <a href="" class="class-For-link">Fit Info</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="MeasurementGuide">
+                                        <a href="" class="class-For-link">Measurement Guide</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="SizeConversionChart">
+                                        <a href="" class="class-For-link">Size Conversion Chart</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="MeasureYourBraSize">
+                                        <a href="" class="class-For-link">Measure Your Bra Size</a>
+                                    </li>
+                                </ul>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="col-auto" id="col-three">
+                        <span id="First-Col">
+                            <span id="Box-ExploreZappos">
+                                <ul id="Explore-Zappos-List">
+                                    <li id="Explore-Zappos" class="class-Head-List">
+                                        <a href="">Explore Zappos</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Brands">
+                                        <a class="class-For-link" href="">Brands</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Clothing">
+                                        <a href="" class="class-For-link">Clothing</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="TheStyleRoom">
+                                        <a href="" class="class-For-link">The Style Room</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Eyewear">
+                                        <a href="" class="class-For-link">Eyewear</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Outdoor">
+                                        <a href="" class="class-For-link">Outdoor</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Rideshop">
+                                        <a href="" class="class-For-link">Rideshop</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Running">
+                                        <a href="" class="class-For-link">Running</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Jackets">
+                                        <a href="" class="class-For-link">Jackets</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="LeatherJackets">
+                                        <a href="" class="class-For-link">Leather Jackets</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="RainJackets">
+                                        <a href="" class="class-For-link">Rain Jackets</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Shoes">
+                                        <a href="" class="class-For-link">Shoes</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Watches">
+                                        <a href="" class="class-For-link">Watches</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="Wedding">
+                                        <a href="" class="class-For-link">Wedding</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="DenimJackets">
+                                        <a href="" class="class-For-link">Denim Jackets</a>
+                                    </li>
+                                    <li class="class-For-ExploreZappos-List" id="ZapposAdaptive">
+                                        <a href="" class="class-For-link">Zappos Adaptive</a>
+                                    </li>
+                                </ul>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="col-auto" id="col-four">
+                        <div class="VoiceMatters-Content">
+                            <h4 id="VoiceMatters">
+                                Your Voice Matters
+                            </h4>
+
+                            <div id="AskClinte">
+                                We'd love to learn more about your shopping experiences on Zappos.com and how we can
+                                improve!
+                            </div>
+                            <div class="btnAsk">
+                                <button type="submit" id="takeSurvey" class="btn btn-primary mb-3"><i
+                                        class="fas fa-envelope-open p-2" aria-hidden="true"></i>&nbsp;TAKE
+                                    SURVEY</button>
+                            </div>
+                        </div>
+                        <div class="ConnectUS">
+                            <div>
+                                Connect With Us
+                            </div>
+                            <div class="SiteForConnects">
+                                <i class="fab fa-facebook-square"></i>&nbsp;&nbsp;
+                                <i class="fab fa-instagram"></i>&nbsp;&nbsp;
+                                <i class="fab fa-twitter"></i>&nbsp;&nbsp;
+                                <i class="fab fa-pinterest"></i>&nbsp;&nbsp;
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row g-0" id="Line">
+                    <hr style="width: 90%;color:#fff;">
+                </div>
+                <div class="row g-0" id="tearms">
+
+                    <div class="col-auto" id="tearms-one">
+
+                        <a>Terms of Use</a>&nbsp;&nbsp;
+                    </div>
+
+                    <div class="col-auto" id="tearms-one-vl">
+                        <div class="vl"></div>
+                    </div>
+                    <div class="col-auto" id="tearms-two">
+                        <a>Privacy Policy</a>
+                    </div>
+                    <div class="col-auto" id="tearms-two-vl">
+                        <div class="vl"></div>
+                    </div>
+                    <div class="col-auto" id="tearms-three">
+                        <a>Terms of Use</a>
+                    </div>
+                    <div class="col-auto" id="tearms-three-vl">
+                        <div class="vl"></div>
+                    </div>
+                    <div class="col-auto" id="tearms-four">
+                        <a>Fur Policy</a>
+                    </div>
+                    <div class="col-auto" id="tearms-four-vl">
+                        <div class="vl"></div>
+                    </div>
+                    <div class="col-auto" id="tearms-five">
+                        <a>Interest-Based Ads</a>
+                    </div>
+                    <div class="col-auto" id="tearms-five-vl">
+                        <div class="vl"></div>
+                    </div>
+                    <div class="col-auto" id="tearms-five">
+                        <a>24/7 Customer Service (800) 927-7671</a>
+                    </div>
+                </div>
+                <div class="CpyWrite">
+                    © 2009–2022 - Zappos.com LLC or its affiliates
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function mouseOver() {
+            var x = document.getElementsByClassName("p1");
+            for (let i = 0; i < x.length; i++) {
+                x[i].addEventListener("mouseover", function () {
+
+                    x[i].style.textDecoration = "underline";
+                    //x[i].style.color= "blue";
+
+
+                })
+
+                x[i].addEventListener("mouseout", function () {
+                    x[i].style.textDecoration = "none";
+                    //x[i].style.color= "black";
+
+                })
+
+            }
+
+        }
+
+
+        function onlink() {
+            var x = document.getElementsByClassName("clrlink");
+            for (let i = 0; i < x.length; i++) {
+                x[i].addEventListener("mouseover", function () {
+
+
+                    x[i].style.color = "blue";
+
+
+                })
+
+                x[i].addEventListener("outlink", function () {
+
+                    x[i].style.color = "black";
+
+                })
+
+            }
+
+        }
+ 
+
+    </script>
+      <!-- Jquery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <!-- Slick Carousel -->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script src="JS/JSPart2.js"></script>
+      <script src="JS/JSPart3.js"></script>
+      <script src="JS/JSPart32.js"></script>
+    <script src="JS/Search.js"></script>
+    <script src="JS/HomeJavaScript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+</html>

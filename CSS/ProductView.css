@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Main{
+    width: 100%;
+    height: 1085px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.Path{
+    text-align: left;
+    width: 70%;
+    margin:auto;
+    position: relative;
+    padding: 16px;
+    
+
+}
+.Path a{
+    color: rgb(0,57,83);
+    text-decoration: none;
+}
+.Content{
+    width: 80%;
+    margin:auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 3000px;
+
+}
+.Left{
+    width: 10%;
+}
+.V-IMGS{
+    
+   height: 100px;
+   background-color: rgb(244,244,244);
+   margin: 8px;
+    padding: 0;
+}
+.V-IMGS img{
+    width: 60%;
+    height: 80%;
+    margin-top: 10px;
+}
+.Middle{
+    border: 1px solid black;
+    width: 60%;
+    height: 1025px;
+}
+.Middle i{
+    margin-left: 910px;
+    font-size: 40px;
+    background-color: rgb(244,244,244);
+    padding: 10px;
+    border-radius: 0 0 0 15px;
+    color: red;
+}
+.Right{
+    width:30% ;
+    padding-left: 10px;
+}
+.Right h1 ,.Right h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.Right .PriceBlock{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(8,96,92);
+    font-weight: bold;
+    font-size: 40px;
+   
+}
+.Right > div{
+    margin-bottom: 14px;
+}
+
+.PriceBlock{
+    padding: 0px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.Price{
+    text-align: left;
+}
+.PriceBlock div{
+    padding: 0;
+}
+.PriceBlock #S3r{
+    padding-top: 7px;
+}
+.PriceBlock #DollarSign , .PriceBlock #Ba2y{
+    font-weight: normal;
+    font-size:20px ;
+}
+.Price #Txt {
+    
+    padding-top:10px;
+    font-size: 15px;
+}
+.Price #Txt img{
+    width: 70px;
+    height: 19px;
+    margin-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.Rating {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.Rating #Stars i{
+    color: rgb(255,196,0);
+}
+#ShipFree {
+    background-color: rgb(0,118,189);
+    color: white;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+#ChooseIMG{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#ChooseIMG img{
+    width: 110px;
+    height: 80px;
+}
+.Choose #ColorName{
+    text-align: left;
+}
+.Size{
+    text-align: left;
+    height: 100px;
+    padding-top: 10px;
+}
+.Size p{
+    margin-bottom: 16px;
+}
+.Size span{
+    width: 25%;
+    background-color: rgb(244,244,244);
+   margin-top: 10px;
+    padding: 10px;
+}
+.Size #ANCHORDIV{
+    padding-top: 24px;
+    
+}
+.Size #ANCHORDIV a{
+    color: rgb(0,168,225);
+}
+.CartBtn input{
+    width: 95%;
+    height: 40px;
+    background-color: rgb(167,230,136);
+    color: rgb(3,93,90);
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#GOTOCART{
+    width: 95%;
+    height: 40px;
+    background-color: rgb(167,230,136);
+    color: rgb(3,93,90);
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.CartBtn img{
+    width: 80px;
+    margin-top: 0;
+    height: 20px;
+}
+.SocialMedia{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.SocialMedia i{
+    font-size: 25px;
+    padding-left: 25px;
+    color: black;
+}
+.ProductInformation{
+    background-color: rgb(244,244,244);
+    height: 330px;
+    padding: 15px;
+    text-align: left;
+}
+.ProductInformation img{
+    height: 50px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.ProductInformation li{
+    padding: 10px;
+}
+
+

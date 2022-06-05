@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    padding: 0;
+}
+.PageHeader{
+    text-align: center;
+}
+.HeaderImg{
+    margin:14px;
+}
+
+.Componants{
+    border: 1px solid rgb(0,57,83);
+    border-radius: 5px;
+    margin: 38%;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 23%;
+    height:400px;
+}
+.FORM{
+    text-align: left;
+    margin: 20px;
+}
+.FormTitle{
+  
+   
+    /* font-family:'Times New Roman', Times, serif; */
+    font-size: 30px;
+}
+
+ .ComponantsR{
+    border: 1px solid rgb(0,57,83);
+    border-radius: 5px;
+    margin: 38%;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 23%;
+    height:550px;
+}
+ .Labels{
+     
+     font-size: 15px;
+     font-weight: bold;
+     
+     color: rgb(0,57,83);
+    
+ }
+ .TextBoxes{
+   border-radius: 5px;
+   border: 2px solid rgb(211, 206, 206);  
+     width: 300px;
+     height: 30px;
+     cursor: pointer;
+ }
+
+ .FormBTN{
+     background-color: rgb(0,57,83);
+     color: white;
+     border-radius: 5px;
+     width: 300px;
+     height: 27px;
+     font-size: 20px;
+     text-align: center;
+ }
+ .SmallParts{
+     margin-top:  8px;
+     /* margin-bottom: 8px; */
+ }
+ .CreateBTN{
+    width: 300px;
+    height: 35px;
+    border: 2px solid rgb(0,57,83);
+    /* font-family:'Times New Roman', Times, serif; */
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(0,57,83);
+ }
+
+ .SmallParts h6 {
+    display: flex;
+    color: rgb(158, 155, 155);
+    font-size: 15px;
+    margin-bottom: 10px;
+    flex-direction: row;
+  }
+  .SmallParts h6:before,  .SmallParts h6:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  .SmallParts h6:before {
+    margin-right: 10px
+  }
+  .SmallParts h6:after {
+    margin-left: 10px
+  }
+  .PageFooter{
+      height: 100%;
+      text-align: center;
+      margin: 30px;
+  }
+  .PageFooter a{
+      margin-left: 10px;
+      margin-left: 10px;
+      padding: 5px;
+      font-size: 13px;
+      text-decoration: none;
+      color:rgb(0,57,83);
+  }
+  .PageFooter p{
+      margin: 15px;
+      font-size: 15px;
+      color: rgb(85, 84, 84);  
+  }
+  .PageFooter hr{
+    border:none;
+    height: 20px;
+       width: 90%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 1px solid rgb(238, 233, 233);
+      box-shadow: 0 20px 20px -20px rgb(172, 170, 170);
+      margin: -50px auto 10px; 
+  }
+  .SPR2 a{
+      text-decoration: none;
+      color:rgb(0,57,83);
+      margin-left: 77px;
+      font-size: 15px;
+      padding: 4px;
+  }
+  .SPR3 i{
+      color: grey;
+      margin-left: 5px;
+      margin-top: 2px;
+      font-size: 15px;
+  }
+  .SPR3 a{
+      text-decoration: none;
+  }
+  a{
+    color:rgb(0,57,83); 
+  }
+
+  .PageFooterR{
+    height: 10%;
+    text-align: center;
+    margin: 30px;
+}
+.PageFooterR a{
+    margin-left: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 13px;
+    text-decoration: none;
+    color:rgb(0,57,83);
+}
+.PageFooterR p{
+    margin: 15px;
+    font-size: 15px;
+    color: rgb(85, 84, 84);  
+}
+.PageFooterR hr , .SPR6 hr{
+  border:none;
+  height: 20px;
+     width: 90%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid rgb(238, 233, 233);
+    box-shadow: 0 20px 20px -20px rgb(172, 170, 170);
+    margin: -50px auto 10px; 
+}
+.SPR3{
+   margin-bottom: 15px;
+}
+.SPR3 span{
+    font-size: 16px;    
+}
+.SPR3 span i{
+ font-size: 13px;
+ margin-left: 5px;
+ color: rgb(0,57,83);
+}
+.SPR3 .TextBoxes{
+    margin-bottom: 0;
+}
+.SPR4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.SPR6{
+    margin-top: 20px;
+}
+.SPR6 p{
+    margin-top: 25px;
+}
+.SPR5 input{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 3px;
+}
+.SPR5 p{ 
+    font-size: 14px;
+}
+.SPR5 #line3{
+    margin-top: 20px;
+}
+.SPR5 #line1 a{
+    color:rgb(0,57,83);
+    font-weight: bold;
+}
